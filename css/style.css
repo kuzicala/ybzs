@@ -1,0 +1,198 @@
+html, body, div, span, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+a{
+    cursor: pointer;
+    outline: none;
+}
+a:link, a:visited, a:active {
+    color: #333;
+    text-decoration: none;
+}
+form, dl, dd, dt, ul, li, img {
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+    border: 0;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    list-style-type: none;
+    white-space: normal;
+}
+
+.headBg{
+    width: 100%;
+    background:url("../img/headBg.png") repeat-x bottom;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+
+.header{
+    width: 1080px;
+    height: 106px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header .log{
+    float: left;
+    margin-top: 24px;
+}
+
+.nav{
+    float: right;
+    width: 830px;
+    margin-top: 35px;
+    overflow: hidden;
+}
+
+.nav li{
+    float: left;
+    width: 73px;
+    margin: 0 12px;
+    text-align: center;
+    height: 43px;
+    position: relative;
+}
+
+
+.nav li a {
+    display: block;
+    color: #2E2E2E;
+    font-size: 17px;
+    line-height: 40px;
+    position: relative;
+    left:0;
+    z-index: 200;
+    padding-top: 3px;
+}
+
+.nav li a em{
+    display: block;
+    font-style: normal;
+    font-size: 16px;
+    border-top: 3px solid #E40014;
+}
+
+.header .aBox{
+    width: 160px;
+    height: 39px;
+    position: absolute;
+    top:35px;
+    right: 0;
+    z-index: 300;
+}
+.header .aBox a{
+    float: left;
+    width: 39px;
+    height:39px;
+    background: url("../img/aBg1.png") no-repeat left 0;
+    margin-left: 14px;
+    position: relative;
+}
+
+.header .aBox a.weixin{
+    background-position: -53px 0;
+}
+.header .aBox a.tel{
+     background-position: right 0;
+ }
+
+.show{
+    top:-43px;
+}
+
+.mhide img{
+    position: absolute;
+    top:40px;
+    left:-40px;
+    display: none;
+}
+
+.aBox a span{
+    position: absolute;
+    text-align: center;
+    color:red;
+    display: none;
+    width: 120px;
+    top:42px;
+    left: -40px;
+}
+
+/*solutions*/
+
+.am-container-1{
+    margin: 0 auto;
+    width: 1120px;
+}
+.part-all{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.part-all .part-title{
+    text-align: center;
+    position: relative;
+}
+
+.part-all .part-title i{
+    vertical-align:sub;
+    font-size: 36px;
+    color: #0086da;
+    margin-right: 5px;
+}
+
+.part-title-span{
+    font-size: 26px;
+}
+
+.part-title p {
+    font-size: 17px;
+    color: #999;
+    margin-top: -5px;
+}
+
+.part-content{
+    text-align: center;
+    margin-top: 35px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.solution-circle{
+    font-size: 64px;
+    background-color:#3f9fdb;
+    width:170px;
+    height: 170px;
+    line-height: 140px;
+    border: 15px solid #f0f0f0;
+    color: #fff;
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    -moz-transition: -moz-transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;
+}
+.solution-circle:hover {
+    background-color: #0071b8;
+    border: 15px solid #c9dfec;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.solutions-title{
+    margin-top: 15px;
+    display: block;
+    font-size: 17px;
+}
+.solutions-way{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #555555;
+}
+
+/**customer cases**/
+
+.customer-case{
+    
+}
